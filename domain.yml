@@ -1,0 +1,52 @@
+intents:
+  - greet
+  - subsidy
+  - affirm
+  - deny
+  - information
+  - mood_unhappy
+  - bot_challenge
+  - eligible
+  - nationality
+  - inform_country
+
+actions:
+- utter_greet
+- utter_subsidy1
+- utter_did_that_help
+- utter_happy
+- utter_information
+- utter_eligible
+- Answer_fine
+- Answer_nationality
+
+templates:
+  utter_greet:
+  - text: "Dear Eng.mohamed kamel , Thanks for reaching out , I'm glad I will talk to you"
+
+  utter_subsidy1:
+  - text: "For all states except for North-eastern States, Hill States/UTs and
+ Island UTs, subsidy of 30%, each by Central and State Governments 
+will be provided, and the remaining 40% will be invested by the farmer 
+for solarization of existing pumps. Subsidy in percentage mentioned 
+above is applicable on benchmark cost or tender cost, whichever is 
+lower. For North-eastern States, Himachal Pradesh, Uttarakhand, 
+Jammu nd Kashmir/Ladakh and Island UTs, subsidy of 50% will be provided by Central Government and at least 30% will be provided by the State Government
+ for solarization of existing pumps. Farmer will have to invest balance 20%"
+    
+  utter_did_that_help:
+  - text: "Did that help you? i hope so"
+
+  utter_happy:
+  - text: "Great"
+
+  utter_information:
+  - text: "For more information, please visit https://mnre.gov.in/solar/schemes/ or
+              call at toll free number 1800-180-3333."
+
+  utter_eligible:
+  - text: "Individual farmers/ group of farmers/ cooperatives/panchayats/ 
+           Farmer Producer Organisations (FPO)/Water User associations (WUA).
+            Land on which the project is proposed to be installed 
+             should be within 5 km from the nearest electricity sub-station."
+  
